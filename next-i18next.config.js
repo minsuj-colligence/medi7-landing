@@ -1,10 +1,9 @@
 module.exports = {
   i18n: {
-    defaultLocale: 'ko',
+    defaultLocale: 'en',
     locales: ['ko', 'en', 'zh', 'ja'],
-    localeDetection: false,
   },
-  fallbackLng: 'ko',
+  fallbackLng: 'en',
   interpolation: {
     escapeValue: false,
   },

@@ -80,7 +80,7 @@ export default function Home() {
 }
 
 export async function getStaticProps({ locale }: { locale?: string }) {
-  const currentLocale = locale || 'ko';
+  const currentLocale = locale || 'en';
   return {
     props: {
       ...(await serverSideTranslations(currentLocale, ['common'])),
