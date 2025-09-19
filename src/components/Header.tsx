@@ -2,17 +2,21 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
 import { NavigationItem } from '@/types';
-
-const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#home' },
-  { name: 'Features', href: '#features' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
-];
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
+  const { t } = useTranslation('common');
   const [isOpen, setIsOpen] = useState(false);
+
+  const navigation: NavigationItem[] = [
+    { name: t('navigation.home'), href: '#home' },
+    { name: t('navigation.features'), href: '#features' },
+    { name: t('navigation.about'), href: '#about' },
+    { name: t('navigation.hospitals'), href: '#hospitals' },
+    { name: t('navigation.contact'), href: '#contact' },
+  ];
 
   return (
     <header className="fixed w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
@@ -43,15 +47,8 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <div className="ml-4 flex items-center space-x-4">
-              <Link
-                href="#contact"
-                className="btn-secondary text-sm px-4 py-2"
-              >
-                Get Started
-              </Link>
-            </div>
+          <div className="hidden md:flex items-center">
+            <LanguageSwitcher />
           </div>
 
           <div className="md:hidden">
@@ -108,13 +105,9 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
-              <Link
-                href="#contact"
-                className="btn-secondary text-sm px-4 py-2 mt-4 inline-block"
-                onClick={() => setIsOpen(false)}
-              >
-                Get Started
-              </Link>
+              <div className="px-3 py-2 border-t border-gray-100 mt-4">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         )}

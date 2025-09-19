@@ -1,3 +1,5 @@
+import { useTranslation } from 'next-i18next';
+
 interface Hospital {
   id: string;
   name: string;
@@ -9,80 +11,81 @@ interface Hospital {
   features: string[];
 }
 
-const hospitals: Hospital[] = [
-  {
-    id: 'samsung-medical',
-    name: '삼성서울병원',
-    specialty: '종합병원 · 암치료',
-    location: '서울 강남구',
-    description: '세계 최고 수준의 암 치료와 첨단 의료 기술을 보유한 대한민국 대표 종합병원',
-    accreditation: ['JCI', 'ISO 9001', '보건복지부 인증'],
-    image: '/images/samsung-hospital.jpg',
-    features: ['로봇수술', '프로톤치료', '첨단 암치료', '국제진료센터']
-  },
-  {
-    id: 'asan-medical',
-    name: '서울아산병원',
-    specialty: '심장외과 · 장기이식',
-    location: '서울 송파구',
-    description: '심장 질환과 장기 이식 분야에서 아시아 최고 수준의 의료진과 시설을 자랑',
-    accreditation: ['JCI', 'HIMSS Stage 7', '글로벌 헬스케어 인증'],
-    image: '/images/asan-hospital.jpg',
-    features: ['심장이식', '간이식', '응급의료센터', '스마트병원']
-  },
-  {
-    id: 'severance',
-    name: '세브란스병원',
-    specialty: '신경외과 · 재활의학',
-    location: '서울 서대문구',
-    description: '130년 전통의 대한민국 최초 서양식 병원으로 뇌신경 분야 세계적 권위',
-    accreditation: ['JCI', 'AAHRPP', '국제의료기관평가'],
-    image: '/images/severance-hospital.jpg',
-    features: ['뇌종양 치료', '척추센터', '재활치료', '로봇재활']
-  },
-  {
-    id: 'gangnam-plastic',
-    name: '강남 성형외과',
-    specialty: '성형외과 · 미용의학',
-    location: '서울 강남구',
-    description: '한류 성형의 중심지 강남에서 자연스럽고 안전한 미용 의료 서비스 제공',
-    accreditation: ['대한성형외과학회', '국제미용외과학회', 'ISAPS'],
-    image: '/images/gangnam-plastic.jpg',
-    features: ['자연성형', '비수술 리프팅', '피부 관리', '맞춤 성형']
-  },
-  {
-    id: 'seoul-national',
-    name: '서울대학교병원',
-    specialty: '소아과 · 산부인과',
-    location: '서울 종로구',
-    description: '대한민국 최고의 대학병원으로 소아 치료와 산부인과 분야 선도적 역할',
-    accreditation: ['JCI', '보건복지부 상급종합병원', 'Magnet 인증'],
-    image: '/images/snuh-hospital.jpg',
-    features: ['소아심장수술', '고위험임신', '신생아집중치료', '유전자치료']
-  },
-  {
-    id: 'korean-medicine',
-    name: '경희대 한방병원',
-    specialty: '한방의학 · 통합치료',
-    location: '서울 동대문구',
-    description: '전통 한의학과 현대 의학을 결합한 독창적 통합 치료 시스템',
-    accreditation: ['한방의료기관인증', 'WHO 전통의학협력센터', '보건복지부 인증'],
-    image: '/images/korean-medicine.jpg',
-    features: ['침술치료', '한약치료', '추나요법', '통합암치료']
-  }
-];
-
 export default function HospitalGallery() {
+  const { t } = useTranslation('common');
+
+  const hospitals: Hospital[] = [
+    {
+      id: 'samsung-medical',
+      name: t('hospitals.samsung.name'),
+      specialty: t('hospitals.samsung.specialty'),
+      location: t('hospitals.samsung.location'),
+      description: t('hospitals.samsung.description'),
+      accreditation: ['JCI', 'ISO 9001', t('hospitals.accreditation.mohw')],
+      image: '/images/samsung-hospital.jpg',
+      features: [t('hospitals.samsung.features.0'), t('hospitals.samsung.features.1'), t('hospitals.samsung.features.2'), t('hospitals.samsung.features.3')]
+    },
+    {
+      id: 'asan-medical',
+      name: t('hospitals.asan.name'),
+      specialty: t('hospitals.asan.specialty'),
+      location: t('hospitals.asan.location'),
+      description: t('hospitals.asan.description'),
+      accreditation: ['JCI', 'HIMSS Stage 7', t('hospitals.accreditation.global')],
+      image: '/images/asan-hospital.jpg',
+      features: [t('hospitals.asan.features.0'), t('hospitals.asan.features.1'), t('hospitals.asan.features.2'), t('hospitals.asan.features.3')]
+    },
+    {
+      id: 'severance',
+      name: t('hospitals.severance.name'),
+      specialty: t('hospitals.severance.specialty'),
+      location: t('hospitals.severance.location'),
+      description: t('hospitals.severance.description'),
+      accreditation: ['JCI', 'AAHRPP', t('hospitals.accreditation.international')],
+      image: '/images/severance-hospital.jpg',
+      features: [t('hospitals.severance.features.0'), t('hospitals.severance.features.1'), t('hospitals.severance.features.2'), t('hospitals.severance.features.3')]
+    },
+    {
+      id: 'gangnam-plastic',
+      name: t('hospitals.gangnam.name'),
+      specialty: t('hospitals.gangnam.specialty'),
+      location: t('hospitals.gangnam.location'),
+      description: t('hospitals.gangnam.description'),
+      accreditation: [t('hospitals.accreditation.plastic'), t('hospitals.accreditation.cosmetic'), 'ISAPS'],
+      image: '/images/gangnam-plastic.jpg',
+      features: [t('hospitals.gangnam.features.0'), t('hospitals.gangnam.features.1'), t('hospitals.gangnam.features.2'), t('hospitals.gangnam.features.3')]
+    },
+    {
+      id: 'seoul-national',
+      name: t('hospitals.snuh.name'),
+      specialty: t('hospitals.snuh.specialty'),
+      location: t('hospitals.snuh.location'),
+      description: t('hospitals.snuh.description'),
+      accreditation: ['JCI', t('hospitals.accreditation.tertiary'), 'Magnet'],
+      image: '/images/snuh-hospital.jpg',
+      features: [t('hospitals.snuh.features.0'), t('hospitals.snuh.features.1'), t('hospitals.snuh.features.2'), t('hospitals.snuh.features.3')]
+    },
+    {
+      id: 'korean-medicine',
+      name: t('hospitals.korean.name'),
+      specialty: t('hospitals.korean.specialty'),
+      location: t('hospitals.korean.location'),
+      description: t('hospitals.korean.description'),
+      accreditation: [t('hospitals.accreditation.korean'), 'WHO', t('hospitals.accreditation.mohw')],
+      image: '/images/korean-medicine.jpg',
+      features: [t('hospitals.korean.features.0'), t('hospitals.korean.features.1'), t('hospitals.korean.features.2'), t('hospitals.korean.features.3')]
+    }
+  ];
+
   return (
     <section id="hospitals" className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
-            대한민국 최고의 파트너 병원들
+            {t('hospitals.title')}
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            JCI 인증을 받은 세계적 수준의 의료기관들과 파트너십을 통해
-            최고 품질의 의료 서비스를 제공합니다.
+            {t('hospitals.subtitle')}
           </p>
         </div>
 
@@ -95,7 +98,7 @@ export default function HospitalGallery() {
               <div className="relative h-48 bg-gradient-to-br from-medical/10 to-blue-500/10 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-medical/20 to-blue-500/20"></div>
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
-                  <span className="text-xs font-medium text-medical">#{index + 1} 파트너</span>
+                  <span className="text-xs font-medium text-medical">#{index + 1} {t('hospitals.partner')}</span>
                 </div>
                 <div className="absolute top-4 right-4 flex space-x-1">
                   {hospital.accreditation.slice(0, 1).map((cert, idx) => (
@@ -131,7 +134,7 @@ export default function HospitalGallery() {
                 </p>
 
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-gray-900 mb-2">주요 특성화 분야</h4>
+                  <h4 className="text-sm font-semibold text-gray-900 mb-2">{t('hospitals.specialties')}</h4>
                   <div className="flex flex-wrap gap-2">
                     {hospital.features.map((feature, idx) => (
                       <span
@@ -147,7 +150,7 @@ export default function HospitalGallery() {
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-                    <span className="text-sm text-emerald-600 font-medium">파트너 병원</span>
+                    <span className="text-sm text-emerald-600 font-medium">{t('hospitals.partnerHospital')}</span>
                   </div>
                   <button className="text-medical hover:text-medical-dark transition-colors duration-300">
                     <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -170,7 +173,7 @@ export default function HospitalGallery() {
                   </svg>
                 </div>
                 <div className="text-2xl font-bold text-medical mb-1">100+</div>
-                <div className="text-sm text-gray-600">파트너 병원</div>
+                <div className="text-sm text-gray-600">{t('hospitals.stats.partners')}</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -179,7 +182,7 @@ export default function HospitalGallery() {
                   </svg>
                 </div>
                 <div className="text-2xl font-bold text-emerald-600 mb-1">85%</div>
-                <div className="text-sm text-gray-600">JCI 인증률</div>
+                <div className="text-sm text-gray-600">{t('hospitals.stats.jciRate')}</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -188,7 +191,7 @@ export default function HospitalGallery() {
                   </svg>
                 </div>
                 <div className="text-2xl font-bold text-blue-600 mb-1">20+</div>
-                <div className="text-sm text-gray-600">전문 진료과</div>
+                <div className="text-sm text-gray-600">{t('hospitals.stats.specialties')}</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -198,15 +201,15 @@ export default function HospitalGallery() {
                   </svg>
                 </div>
                 <div className="text-2xl font-bold text-purple-600 mb-1">24/7</div>
-                <div className="text-sm text-gray-600">응급 의료</div>
+                <div className="text-sm text-gray-600">{t('hospitals.stats.emergency')}</div>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#contact" className="btn-primary">
-                병원 추천 받기
+                {t('hospitals.cta.recommendBtn')}
               </a>
               <a href="#features" className="btn-secondary">
-                전체 병원 보기
+                {t('hospitals.cta.viewAllBtn')}
               </a>
             </div>
           </div>

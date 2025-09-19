@@ -1,12 +1,6 @@
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
 import { NavigationItem, SocialLink } from '@/types';
-
-const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#home' },
-  { name: 'Features', href: '#features' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
-];
 
 const socialLinks: SocialLink[] = [
   { name: 'Twitter', url: '#', icon: 'twitter' },
@@ -38,6 +32,15 @@ const getSocialIcon = (iconName: string) => {
 };
 
 export default function Footer() {
+  const { t } = useTranslation('common');
+
+  const navigation: NavigationItem[] = [
+    { name: t('navigation.home'), href: '#home' },
+    { name: t('navigation.features'), href: '#features' },
+    { name: t('navigation.about'), href: '#about' },
+    { name: t('navigation.contact'), href: '#contact' },
+  ];
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12">
@@ -50,13 +53,12 @@ export default function Footer() {
               <span className="font-heading font-bold text-xl">Medi7</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              한국의 우수한 의료 기술과 해외 환자를 연결하는 글로벌 의료관광
-              플랫폼으로 안전하고 투명한 의료관광 서비스를 제공합니다.
+              {t('footer.description')}
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               {navigation.map(item => (
                 <li key={item.name}>
@@ -72,29 +74,29 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Contact</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-2 text-gray-300">
               <li>info@medi7.io</li>
               <li>+82-2-1234-5678</li>
-              <li>서울특별시 강남구 테헤란로 427</li>
-              <li>위워크 타워</li>
+              <li>{t('footer.address.line1')}</li>
+              <li>{t('footer.address.line2')}</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2025 Medi7. All rights reserved.
+            {t('footer.copyright')}
           </p>
           <div className="flex space-x-6 text-sm text-gray-300 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors duration-200">
-              Privacy Policy
+              {t('footer.privacy')}
             </a>
             <a href="#" className="hover:text-white transition-colors duration-200">
-              Terms of Service
+              {t('footer.terms')}
             </a>
             <a href="#" className="hover:text-white transition-colors duration-200">
-              HIPAA Compliance
+              {t('footer.compliance')}
             </a>
           </div>
         </div>

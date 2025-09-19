@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-i18next';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
@@ -8,6 +10,8 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export default function Home() {
+  const { t } = useTranslation('common');
+
   return (
     <>
       <Head>
@@ -73,4 +77,13 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps({ locale }: { locale?: string }) {
+  const currentLocale = locale || 'ko';
+  return {
+    props: {
+      ...(await serverSideTranslations(currentLocale, ['common'])),
+    },
+  };
 }

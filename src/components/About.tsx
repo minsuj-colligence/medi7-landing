@@ -1,4 +1,7 @@
+import { useTranslation } from 'next-i18next';
+
 export default function About() {
+  const { t } = useTranslation('common');
   return (
     <section id="about" className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="container-custom">
@@ -16,7 +19,7 @@ export default function About() {
                     </svg>
                   </div>
                   <div className="text-3xl font-bold text-medical mb-2">100+</div>
-                  <div className="text-sm text-gray-600 font-medium">병원 네트워크</div>
+                  <div className="text-sm text-gray-600 font-medium">{t('about.stats.hospitals')}</div>
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center transform hover:scale-105 transition-transform duration-300">
@@ -26,8 +29,8 @@ export default function About() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
                     </svg>
                   </div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">15개국</div>
-                  <div className="text-sm text-gray-600 font-medium">글로벌 파트너</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('about.stats.countriesValue')}</div>
+                  <div className="text-sm text-gray-600 font-medium">{t('about.stats.partners')}</div>
                 </div>
               </div>
 
@@ -39,7 +42,7 @@ export default function About() {
                     </svg>
                   </div>
                   <div className="text-3xl font-bold text-emerald-600 mb-2">95%</div>
-                  <div className="text-sm text-gray-600 font-medium">환자 만족도</div>
+                  <div className="text-sm text-gray-600 font-medium">{t('about.stats.satisfaction')}</div>
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center transform hover:scale-105 transition-transform duration-300">
@@ -49,7 +52,7 @@ export default function About() {
                     </svg>
                   </div>
                   <div className="text-3xl font-bold text-purple-600 mb-2">30-60%</div>
-                  <div className="text-sm text-gray-600 font-medium">비용 절감</div>
+                  <div className="text-sm text-gray-600 font-medium">{t('about.stats.costSaving')}</div>
                 </div>
               </div>
 
@@ -60,8 +63,8 @@ export default function About() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                     </svg>
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">JCI 인증 병원</div>
-                  <div className="text-sm text-gray-600">국제 의료기관 평가위원회 인증</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{t('about.jci.title')}</div>
+                  <div className="text-sm text-gray-600">{t('about.jci.description')}</div>
                 </div>
               </div>
             </div>
@@ -69,18 +72,13 @@ export default function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
-              Medi7: 글로벌 의료관광의 새로운 표준
+              {t('about.title')}
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Medi7은 한국의 우수한 의료진과 시설을 전 세계에 알리고,
-              해외 환자들에게는 안전하고 신뢰할 수 있는 의료서비스를
-              제공하는 글로벌 의료관광 플랫폼입니다.
+              {t('about.description1')}
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              의료관광 전문가와 IT 기술진이 협력하여 만든 통합 솔루션으로,
-              병원의 해외환자 유치부터 환자의 전체 여행 과정까지
-              원스톱으로 관리합니다. 모든 절차는 정부 규정을 준수하며
-              투명하게 운영됩니다.
+              {t('about.description2')}
             </p>
 
             <div className="space-y-4 mb-8">
@@ -101,7 +99,7 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  정부 인가 해외환자유치업 파트너사 연계
+                  {t('about.features.government')}
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -121,7 +119,7 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  100+ 국내 우수 의료기관 네트워크
+                  {t('about.features.hospitals')}
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -141,17 +139,17 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  15개국 50+ 해외 파트너사 연계
+                  {t('about.features.partners')}
                 </span>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="btn-primary">
-                파트너십 시작하기
+                {t('about.cta.partnership')}
               </a>
               <a href="#features" className="btn-secondary">
-                서비스 상세보기
+                {t('about.cta.services')}
               </a>
             </div>
           </div>
@@ -159,13 +157,10 @@ export default function About() {
 
         <div className="mt-20 text-center">
           <h3 className="text-2xl font-semibold text-gray-900 mb-8">
-            Medi7의 비전
+            {t('about.vision.title')}
           </h3>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            한국의 우수한 의료 기술과 서비스를 전 세계에 알리고,
-            해외 환자들에게는 안전하고 신뢰할 수 있는 의료관광 경험을 제공합니다.
-            투명한 플랫폼 운영을 통해 의료관광 산업의 지속가능한 발전에 기여하며,
-            글로벌 의료관광의 허브로 자리매김하는 것이 저희의 목표입니다.
+            {t('about.vision.description')}
           </p>
         </div>
       </div>

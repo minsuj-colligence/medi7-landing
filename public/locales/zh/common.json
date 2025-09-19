@@ -7,7 +7,11 @@
     "contact": "联系我们"
   },
   "hero": {
-    "title": "连接韩国顶级医院的全球医疗旅游平台",
+    "title": {
+      "part1": "连接韩国顶级医院的全球",
+      "highlight": "医疗旅游平台",
+      "part2": ""
+    },
     "subtitle": "Medi7是连接韩国优秀医疗机构与海外患者的医疗旅游平台。我们为医院、海外合作伙伴和患者提供安全透明的医疗旅游服务。",
     "partnershipBtn": "合作咨询",
     "platformBtn": "平台介绍",
@@ -42,11 +46,35 @@
   "features": {
     "title": "全球医疗旅游平台的核心服务",
     "subtitle": "体验Medi7连接医院、海外合作伙伴和患者的差异化医疗旅游解决方案。",
+    "hospitalNetwork": {
+      "title": "医院网络连接",
+      "description": "与100多家韩国顶级医疗机构直接连接，提供专业医疗服务。"
+    },
+    "globalPartners": {
+      "title": "全球合作伙伴网络",
+      "description": "与15个国家50多家海外合作伙伴协作，提供本地支持服务。"
+    },
+    "oneStopService": {
+      "title": "一站式综合服务",
+      "description": "从医疗咨询到旅行、住宿、翻译服务，一次性解决所有需求。"
+    },
+    "legalCompliance": {
+      "title": "法律合规",
+      "description": "通过与政府认可的海外患者招募机构合作，确保所有程序合法进行。"
+    },
+    "paymentSystem": {
+      "title": "安全支付系统",
+      "description": "透明安全的全球支付系统，保护患者和医院双方利益。"
+    },
+    "coordinatorService": {
+      "title": "专属协调员服务",
+      "description": "医疗旅游专家为整个旅程提供一对一护理和支持。"
+    },
     "cta": {
       "title": "与Medi7一起开始全球医疗旅游",
-      "description": "让医院、海外合作伙伴和患者都满意的安全透明医疗旅游平台。",
+      "subtitle": "让医院、海外合作伙伴和患者都满意的安全透明医疗旅游平台。",
       "partnershipBtn": "申请合作",
-      "brochureBtn": "平台介绍"
+      "platformBtn": "平台介绍"
     }
   },
   "about": {
@@ -54,13 +82,13 @@
     "description1": "Medi7是向全世界宣传韩国优秀医疗人员和设施，为海外患者提供安全可靠医疗服务的全球医疗旅游平台。",
     "description2": "作为医疗旅游专家与IT技术人员合作打造的综合解决方案，从医院海外患者招募到患者整个旅程都提供一站式管理。所有程序都遵守政府规定，透明运营。",
     "features": {
-      "govPartnership": "政府认可的海外患者招募业务合作伙伴联系",
-      "hospitalNetwork": "100+国内优秀医疗机构网络",
-      "globalPartners": "15国50+海外合作伙伴联系"
+      "government": "政府认可的海外患者招募业务合作伙伴联系",
+      "hospitals": "100+国内优秀医疗机构网络",
+      "partners": "15国50+海外合作伙伴联系"
     },
-    "buttons": {
-      "startPartnership": "开始合作",
-      "viewServices": "查看服务详情"
+    "cta": {
+      "partnership": "开始合作",
+      "services": "查看服务详情"
     },
     "vision": {
       "title": "Medi7的愿景",
@@ -68,15 +96,73 @@
     },
     "stats": {
       "hospitals": "医院网络",
-      "countries": "全球合作伙伴",
+      "countriesValue": "15",
+      "partners": "全球合作伙伴",
       "satisfaction": "患者满意度",
-      "savings": "费用节省",
-      "jci": "JCI认证医院"
+      "costSaving": "费用节省"
+    },
+    "jci": {
+      "title": "JCI认证医院",
+      "description": "世界最高标准的医疗质量保证"
     }
   },
   "hospitals": {
     "title": "韩国顶级合作医院",
     "subtitle": "通过与获得JCI认证的世界级医疗机构的合作，提供最高质量的医疗服务。",
+    "partner": "合作伙伴",
+    "partnerHospital": "合作医院",
+    "specialties": "专业科室",
+    "samsung": {
+      "name": "三星首尔医院",
+      "specialty": "综合医院",
+      "location": "首尔江南区",
+      "description": "拥有世界一流医疗团队和尖端设备的韩国代表性综合医院。",
+      "features": ["心血管中心", "癌症中心", "神经科学中心", "机器人手术"]
+    },
+    "asan": {
+      "name": "峨山医疗中心",
+      "specialty": "综合医院",
+      "location": "首尔松坡区",
+      "description": "拥有韩国最大规模医疗团队和研究团队的全球医疗机构。",
+      "features": ["器官移植中心", "癌症医院", "心脏医院", "儿童医院"]
+    },
+    "severance": {
+      "name": "延世医疗院",
+      "specialty": "综合医院",
+      "location": "首尔西大门区",
+      "description": "拥有140年传统的韩国首家现代化医院，具备世界级医疗技术。",
+      "features": ["脊椎医院", "心血管医院", "癌症医院", "康复医院"]
+    },
+    "gangnam": {
+      "name": "江南整形外科中心",
+      "specialty": "整形外科",
+      "location": "首尔江南区",
+      "description": "拥有世界知名整形外科专家和先进技术的领先整形外科中心。",
+      "features": ["面部轮廓", "鼻部整形", "胸部整形", "身体塑形"]
+    },
+    "snuh": {
+      "name": "首尔大学医院",
+      "specialty": "大学医院",
+      "location": "首尔钟路区",
+      "description": "提供尖端研究和综合医疗服务的韩国顶级大学医院。",
+      "features": ["研究中心", "创伤中心", "罕见疾病中心", "临床试验"]
+    },
+    "korean": {
+      "name": "韩方医院",
+      "specialty": "传统医学",
+      "location": "首尔中区",
+      "description": "结合传统韩医学智慧与现代医疗技术的领先韩方医疗中心。",
+      "features": ["针灸治疗", "中药处方", "拔罐疗法", "韩医诊断"]
+    },
+    "accreditation": {
+      "mohw": "保健福祉部认证",
+      "global": "全球医疗认证",
+      "international": "国际标准认证",
+      "plastic": "整形外科专家认证",
+      "cosmetic": "美容医学认证",
+      "tertiary": "三级医疗机构认证",
+      "korean": "韩方医疗认证"
+    },
     "cta": {
       "recommendBtn": "获取医院推荐",
       "viewAllBtn": "查看所有医院"
@@ -101,29 +187,33 @@
       "companyPlaceholder": "请输入医院或公司名称",
       "message": "咨询内容",
       "messagePlaceholder": "请详细说明您的合作咨询事项",
-      "submit": "提交咨询"
+      "submit": "提交咨询",
+      "successMessage": "您的咨询已成功提交。我们将很快与您联系。"
     },
     "info": {
       "title": "联系信息",
       "email": "邮箱",
       "phone": "电话",
-      "address": "地址"
+      "addressLabel": "地址",
+      "address": "首尔特别市江南区德黑兰路427号，WeWork大厦"
     },
     "meeting": {
       "title": "平台介绍会议",
       "description": "我们提供Medi7医疗旅游平台的详细说明，并为您的业务提出定制化解决方案。",
-      "bookBtn": "预约会议"
+      "button": "预约会议"
     }
   },
   "footer": {
     "description": "连接韩国优秀医疗技术与海外患者的全球医疗旅游平台，提供安全透明的医疗旅游服务。",
     "quickLinks": "快速链接",
     "contact": "联系我们",
-    "address": "首尔特别市江南区德黑兰路427",
-    "addressDetail": "WeWork大厦",
+    "address": {
+      "line1": "首尔特别市江南区德黑兰路427",
+      "line2": "WeWork大厦"
+    },
     "copyright": "© 2025 Medi7. 版权所有。",
     "privacy": "隐私政策",
     "terms": "服务条款",
-    "hipaa": "HIPAA合规"
+    "compliance": "HIPAA合规"
   }
 }
