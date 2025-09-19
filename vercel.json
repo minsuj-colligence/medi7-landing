@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_VERCEL": "true"
+    }
+  },
+  "functions": {
+    "pages/api/*.js": {
+      "maxDuration": 30
+    }
+  }
+}

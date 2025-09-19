@@ -79,7 +79,7 @@ export default function Home() {
   );
 }
 
-export async function getServerSideProps({ locale }: { locale?: string }) {
+export async function getStaticProps({ locale }: { locale?: string }) {
   const currentLocale = locale || 'ko';
   return {
     props: {
