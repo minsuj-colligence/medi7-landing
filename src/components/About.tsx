@@ -87,10 +87,10 @@ export default function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
-              콜리전스: 글로벌 의료관광의 새로운 표준
+              Medi7: 글로벌 의료관광의 새로운 표준
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              콜리전스는 한국의 우수한 의료진과 시설을 전 세계에 알리고,
+              Medi7은 한국의 우수한 의료진과 시설을 전 세계에 알리고,
               해외 환자들에게는 안전하고 신뢰할 수 있는 의료서비스를
               제공하는 글로벌 의료관광 플랫폼입니다.
             </p>
@@ -177,7 +177,7 @@ export default function About() {
 
         <div className="mt-20 text-center">
           <h3 className="text-2xl font-semibold text-gray-900 mb-8">
-            콜리전스의 비전
+            Medi7의 비전
           </h3>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             한국의 우수한 의료 기술과 서비스를 전 세계에 알리고,

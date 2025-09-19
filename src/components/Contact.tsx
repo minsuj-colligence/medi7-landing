@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { ContactInfo } from '@/types';
 
 const contactInfo: ContactInfo = {
-  email: 'partnership@colligence.io',
+  email: 'partnership@medi7.io',
   phone: '+82-2-1234-5678',
   address: '서울특별시 강남구 테헤란로 427, 위워크 타워',
 };
@@ -38,7 +38,7 @@ export default function Contact() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
-            콜리전스 파트너십 문의
+            Medi7 파트너십 문의
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
             병원, 해외 파트너사, 의료관광 사업자 등 글로벌 의료관광 플랫폼에
@@ -214,11 +214,11 @@ export default function Contact() {
                 플랫폼 소개 미팅
               </h3>
               <p className="mb-6 text-medical-light">
-                콜리전스 의료관광 플랫폼에 대한 상세한 설명과
+                Medi7 의료관광 플랫폼에 대한 상세한 설명과
                 귀하의 사업에 맞는 맞춤형 솔루션을 제안해드립니다.
               </p>
               <a
-                href="mailto:partnership@colligence.io"
+                href="mailto:partnership@medi7.io"
                 className="inline-flex items-center bg-white text-medical px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200"
               >
                 미팅 예약하기

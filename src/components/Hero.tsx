@@ -13,7 +13,7 @@ export default function Hero() {
                 Connecting Korea's Best Hospitals Worldwide
               </h1>
               <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed">
-                콜리전스는 한국의 우수한 의료기관과 해외 환자를 연결하는
+                Medi7은 한국의 우수한 의료기관과 해외 환자를 연결하는
                 의료관광 플랫폼입니다. 병원, 해외 파트너사, 환자 모두에게
                 안전하고 투명한 의료관광 서비스를 제공합니다.
               </p>

@@ -108,7 +108,7 @@ export default function Features() {
             글로벌 의료관광 플랫폼의 핵심 서비스
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            병원, 해외 파트너사, 환자를 연결하는 콜리전스만의 차별화된
+            병원, 해외 파트너사, 환자를 연결하는 Medi7만의 차별화된
             의료관광 솔루션을 경험해보세요.
           </p>
         </div>
@@ -142,7 +142,7 @@ export default function Features() {
         <div className="mt-16 text-center">
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              콜리전스와 함께 글로벌 의료관광을 시작하세요
+              Medi7과 함께 글로벌 의료관광을 시작하세요
             </h3>
             <p className="text-gray-600 mb-6">
               병원 · 해외 파트너사 · 환자 모두가 만족하는
