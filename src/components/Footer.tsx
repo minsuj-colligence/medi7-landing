@@ -45,13 +45,13 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-medical rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M7</span>
+                <span className="text-white font-bold text-lg">C</span>
               </div>
-              <span className="font-heading font-bold text-xl">Medi7</span>
+              <span className="font-heading font-bold text-xl">콜리전스</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Revolutionizing healthcare with innovative technology solutions
-              that improve patient outcomes and enhance provider efficiency.
+              한국의 우수한 의료 기술과 해외 환자를 연결하는 글로벌 의료관광
+              플랫폼으로 안전하고 투명한 의료관광 서비스를 제공합니다.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map(link => (
@@ -92,17 +92,17 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>hello@medi7.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Healthcare Ave</li>
-              <li>Medical District, CA 90210</li>
+              <li>partnership@colligence.io</li>
+              <li>+82-2-1234-5678</li>
+              <li>서울특별시 강남구 테헤란로 427</li>
+              <li>위워크 타워</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 Medi7. All rights reserved.
+            © 2024 콜리전스. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-300 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors duration-200">

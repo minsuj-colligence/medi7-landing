@@ -2,45 +2,45 @@ import { Feature } from '@/types';
 
 const features: Feature[] = [
   {
-    id: 'ehr',
-    title: 'Electronic Health Records',
+    id: 'hospital-network',
+    title: '프리미엄 병원 네트워크',
     description:
-      'Comprehensive and secure digital patient records with real-time access across your entire healthcare network.',
+      '성형외과, 피부과, 재활의학과 등 한국의 우수한 의료기관들과 파트너십을 통해 최고 품질의 의료서비스를 제공합니다.',
     icon: 'chart',
   },
   {
-    id: 'telemedicine',
-    title: 'Telemedicine Platform',
+    id: 'global-partners',
+    title: '글로벌 파트너사 연계',
     description:
-      'Connect with patients remotely through our HIPAA-compliant video consultation platform.',
+      '해외환자유치업 법인, 각국 여행사, 의료관광 협회와의 네트워크를 통해 안전하고 합법적인 환자 모집을 지원합니다.',
     icon: 'video',
   },
   {
-    id: 'analytics',
-    title: 'Advanced Analytics',
+    id: 'one-stop-service',
+    title: '원스톱 백오피스 솔루션',
     description:
-      'Powerful insights and reporting tools to optimize patient care and operational efficiency.',
+      '결제, 계약관리, 법적 리스크 관리, CRM, 통역/코디네이터, 보험 연계까지 모든 백오피스 업무를 지원합니다.',
     icon: 'analytics',
   },
   {
-    id: 'integration',
-    title: 'Seamless Integration',
+    id: 'legal-compliance',
+    title: '완전한 법적 컴플라이언스',
     description:
-      'Easy integration with existing healthcare systems and third-party medical devices.',
-    icon: 'integration',
-  },
-  {
-    id: 'security',
-    title: 'Enterprise Security',
-    description:
-      'Bank-level encryption and compliance with HIPAA, GDPR, and other healthcare regulations.',
+      '의료법, 관광진흥법 등 모든 관련 법규를 준수하며, 정부 인가를 받은 파트너사와만 협력합니다.',
     icon: 'shield',
   },
   {
-    id: 'support',
-    title: '24/7 Support',
+    id: 'payment-system',
+    title: '안전한 결제 시스템',
     description:
-      'Round-the-clock technical support from our team of healthcare technology experts.',
+      '다국가 결제 지원, 환율 보장, 분할결제 옵션 등 환자와 병원 모두를 위한 안전한 결제 인프라를 제공합니다.',
+    icon: 'integration',
+  },
+  {
+    id: 'coordinator-service',
+    title: '전문 코디네이터 서비스',
+    description:
+      '다국어 지원, 의료 통역, 여행 코디네이팅, 24/7 응급상황 대응까지 전문 팀이 환자를 케어합니다.',
     icon: 'support',
   },
 ];
@@ -105,11 +105,11 @@ export default function Features() {
       <div className="container-custom">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
-            Comprehensive Healthcare Solutions
+            글로벌 의료관광 플랫폼의 핵심 서비스
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Discover how Medi7's innovative platform transforms healthcare
-            delivery with cutting-edge technology and seamless user experiences.
+            병원, 해외 파트너사, 환자를 연결하는 콜리전스만의 차별화된
+            의료관광 솔루션을 경험해보세요.
           </p>
         </div>
 
@@ -142,18 +142,18 @@ export default function Features() {
         <div className="mt-16 text-center">
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Ready to Transform Your Practice?
+              콜리전스와 함께 글로벌 의료관광을 시작하세요
             </h3>
             <p className="text-gray-600 mb-6">
-              Join thousands of healthcare providers who trust Medi7 for their
-              digital transformation.
+              병원 · 해외 파트너사 · 환자 모두가 만족하는
+              안전하고 투명한 의료관광 플랫폼입니다.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#contact" className="btn-primary">
-                Start Free Trial
+                파트너십 신청
               </a>
               <a href="#about" className="btn-secondary">
-                Learn More
+                플랫폼 소개서
               </a>
             </div>
           </div>

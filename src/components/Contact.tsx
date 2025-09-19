@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { ContactInfo } from '@/types';
 
 const contactInfo: ContactInfo = {
-  email: 'hello@medi7.com',
-  phone: '+1 (555) 123-4567',
-  address: '123 Healthcare Ave, Medical District, CA 90210',
+  email: 'partnership@colligence.io',
+  phone: '+82-2-1234-5678',
+  address: '서울특별시 강남구 테헤란로 427, 위워크 타워',
 };
 
 export default function Contact() {
@@ -38,11 +38,11 @@ export default function Contact() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
-            Get Started with Medi7
+            콜리전스 파트너십 문의
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your healthcare practice? Contact us today for a
-            personalized demo and see how Medi7 can revolutionize your operations.
+            병원, 해외 파트너사, 의료관광 사업자 등 글로벌 의료관광 플랫폼에
+            참여하고 싶으시다면 지금 문의해주세요.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function Contact() {
           <div className="mb-12 lg:mb-0">
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                Send us a message
+                파트너십 문의하기
               </h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
@@ -58,7 +58,7 @@ export default function Contact() {
                     htmlFor="name"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    Full Name
+                    담당자 성명
                   </label>
                   <input
                     type="text"
@@ -68,7 +68,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
-                    placeholder="Your full name"
+                    placeholder="담당자 성함을 입력해주세요"
                   />
                 </div>
                 <div>
@@ -76,7 +76,7 @@ export default function Contact() {
                     htmlFor="email"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    Email Address
+                    이메일 주소
                   </label>
                   <input
                     type="email"
@@ -86,7 +86,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
-                    placeholder="your.email@example.com"
+                    placeholder="담당자 이메일을 입력해주세요"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ export default function Contact() {
                     htmlFor="company"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    Company/Organization
+                    기관/회사명
                   </label>
                   <input
                     type="text"
@@ -103,7 +103,7 @@ export default function Contact() {
                     value={formData.company}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
-                    placeholder="Your healthcare organization"
+                    placeholder="병원명 또는 회사명을 입력해주세요"
                   />
                 </div>
                 <div>
@@ -111,7 +111,7 @@ export default function Contact() {
                     htmlFor="message"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    Message
+                    문의 내용
                   </label>
                   <textarea
                     id="message"
@@ -121,11 +121,11 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
-                    placeholder="Tell us about your healthcare needs and how we can help..."
+                    placeholder="파트너십 관련 문의사항을 자세히 적어주세요 (사업 분야, 규모, 제공 가능한 서비스 등)"
                   />
                 </div>
                 <button type="submit" className="btn-primary w-full">
-                  Send Message
+                  문의하기
                 </button>
               </form>
             </div>
@@ -134,7 +134,7 @@ export default function Contact() {
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                Contact Information
+                연락처 정보
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -154,7 +154,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Email</h4>
+                    <h4 className="font-semibold text-gray-900">이메일</h4>
                     <p className="text-gray-600">{contactInfo.email}</p>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Phone</h4>
+                    <h4 className="font-semibold text-gray-900">전화번호</h4>
                     <p className="text-gray-600">{contactInfo.phone}</p>
                   </div>
                 </div>
@@ -202,7 +202,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Address</h4>
+                    <h4 className="font-semibold text-gray-900">주소</h4>
                     <p className="text-gray-600">{contactInfo.address}</p>
                   </div>
                 </div>
@@ -211,17 +211,17 @@ export default function Contact() {
 
             <div className="bg-medical text-white p-8 rounded-2xl">
               <h3 className="text-xl font-semibold mb-4">
-                Schedule a Demo
+                플랫폼 소개 미팅
               </h3>
               <p className="mb-6 text-medical-light">
-                See Medi7 in action with a personalized demonstration tailored to
-                your healthcare organization's needs.
+                콜리전스 의료관광 플랫폼에 대한 상세한 설명과
+                귀하의 사업에 맞는 맞춤형 솔루션을 제안해드립니다.
               </p>
               <a
-                href="mailto:demo@medi7.com"
+                href="mailto:partnership@colligence.io"
                 className="inline-flex items-center bg-white text-medical px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200"
               >
-                Book a Demo
+                미팅 예약하기
                 <svg
                   className="ml-2 w-4 h-4"
                   fill="none"

@@ -21,10 +21,10 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-medical rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M7</span>
+                <span className="text-white font-bold text-lg">C</span>
               </div>
               <span className="font-heading font-bold text-xl text-gray-900">
-                Medi7
+                콜리전스
               </span>
             </Link>
           </div>

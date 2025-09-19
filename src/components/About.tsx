@@ -87,19 +87,18 @@ export default function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
-              Empowering Healthcare Professionals Since 2018
+              콜리전스: 글로벌 의료관광의 새로운 표준
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              At Medi7, we believe that technology should enhance, not complicate,
-              the practice of medicine. Our platform was born from the real-world
-              challenges faced by healthcare providers every day.
+              콜리전스는 한국의 우수한 의료진과 시설을 전 세계에 알리고,
+              해외 환자들에게는 안전하고 신뢰할 수 있는 의료서비스를
+              제공하는 글로벌 의료관광 플랫폼입니다.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Founded by a team of medical professionals and technology experts,
-              we've built a comprehensive solution that addresses the unique needs
-              of modern healthcare delivery. From small clinics to large hospital
-              systems, our platform scales to meet your organization's
-              requirements.
+              의료관광 전문가와 IT 기술진이 협력하여 만든 통합 솔루션으로,
+              병원의 해외환자 유치부터 환자의 전체 여행 과정까지
+              원스톱으로 관리합니다. 모든 절차는 정부 규정을 준수하며
+              투명하게 운영됩니다.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -120,7 +119,7 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  HIPAA compliant and SOC 2 certified
+                  정부 인가 해외환자유치업 파트너사 연계
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -140,7 +139,7 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  Trusted by over 10,000 healthcare providers
+                  100+ 국내 우수 의료기관 네트워크
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -160,17 +159,17 @@ export default function About() {
                   </svg>
                 </div>
                 <span className="text-gray-700">
-                  99.9% uptime with 24/7 monitoring
+                  15개국 50+ 해외 파트너사 연계
                 </span>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="btn-primary">
-                Start Your Journey
+                파트너십 시작하기
               </a>
               <a href="#features" className="btn-secondary">
-                Explore Features
+                서비스 상세보기
               </a>
             </div>
           </div>
@@ -178,14 +177,13 @@ export default function About() {
 
         <div className="mt-20 text-center">
           <h3 className="text-2xl font-semibold text-gray-900 mb-8">
-            Our Mission
+            콜리전스의 비전
           </h3>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            To revolutionize healthcare delivery by providing innovative,
-            user-friendly technology solutions that improve patient outcomes,
-            enhance provider efficiency, and reduce administrative burden. We're
-            committed to making healthcare more accessible, affordable, and
-            effective for everyone.
+            한국의 우수한 의료 기술과 서비스를 전 세계에 알리고,
+            해외 환자들에게는 안전하고 신뢰할 수 있는 의료관광 경험을 제공합니다.
+            투명한 플랫폼 운영을 통해 의료관광 산업의 지속가능한 발전에 기여하며,
+            글로벌 의료관광의 허브로 자리매김하는 것이 저희의 목표입니다.
           </p>
         </div>
       </div>

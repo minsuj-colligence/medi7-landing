@@ -8,35 +8,35 @@ export default function Hero() {
           <div className="lg:col-span-6">
             <div className="text-center lg:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-gray-900 leading-tight">
-                Revolutionizing{' '}
-                <span className="text-gradient">Healthcare</span> with Advanced
-                Medical Technology
+                Global{' '}
+                <span className="text-gradient">Medical Tourism</span> Platform
+                Connecting Korea's Best Hospitals Worldwide
               </h1>
               <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed">
-                Discover the future of medical care with Medi7's cutting-edge
-                platform. Streamline operations, enhance patient outcomes, and
-                transform your healthcare practice with our innovative solutions.
+                콜리전스는 한국의 우수한 의료기관과 해외 환자를 연결하는
+                의료관광 플랫폼입니다. 병원, 해외 파트너사, 환자 모두에게
+                안전하고 투명한 의료관광 서비스를 제공합니다.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link href="#contact" className="btn-primary">
-                  Get Started Today
+                  파트너십 문의
                 </Link>
                 <Link href="#features" className="btn-secondary">
-                  Learn More
+                  플랫폼 소개
                 </Link>
               </div>
               <div className="mt-8 grid grid-cols-3 gap-8 text-center lg:text-left">
                 <div>
-                  <div className="text-2xl font-bold text-medical">10K+</div>
-                  <div className="text-sm text-gray-600">Healthcare Providers</div>
+                  <div className="text-2xl font-bold text-medical">100+</div>
+                  <div className="text-sm text-gray-600">파트너 병원</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-medical">99.9%</div>
-                  <div className="text-sm text-gray-600">Uptime Guarantee</div>
+                  <div className="text-2xl font-bold text-medical">50+</div>
+                  <div className="text-sm text-gray-600">해외 파트너사</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-medical">24/7</div>
-                  <div className="text-sm text-gray-600">Expert Support</div>
+                  <div className="text-2xl font-bold text-medical">15</div>
+                  <div className="text-sm text-gray-600">연결 국가</div>
                 </div>
               </div>
             </div>
