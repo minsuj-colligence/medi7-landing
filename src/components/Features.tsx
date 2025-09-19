@@ -114,27 +114,35 @@ export default function Features() {
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map(feature => (
+          {features.map((feature, index) => (
             <div
               key={feature.id}
-              className="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 border border-gray-100"
+              className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-medical/20 transform hover:-translate-y-2"
             >
-              <div className="w-12 h-12 bg-medical/10 rounded-lg flex items-center justify-center mb-6">
-                <svg
-                  className="w-6 h-6 text-medical"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  {getIcon(feature.icon)}
-                </svg>
+              <div className="relative mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-medical to-medical-dark rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <svg
+                    className="w-8 h-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    {getIcon(feature.icon)}
+                  </svg>
+                </div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <span className="text-xs font-bold text-white">{index + 1}</span>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-medical transition-colors duration-300">
                 {feature.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+
+              <p className="text-gray-600 leading-relaxed mb-6">
                 {feature.description}
               </p>
+
             </div>
           ))}
         </div>

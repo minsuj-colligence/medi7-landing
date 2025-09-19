@@ -53,24 +53,6 @@ export default function Footer() {
               한국의 우수한 의료 기술과 해외 환자를 연결하는 글로벌 의료관광
               플랫폼으로 안전하고 투명한 의료관광 서비스를 제공합니다.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map(link => (
-                <a
-                  key={link.name}
-                  href={link.url}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-medical transition-colors duration-200"
-                  aria-label={link.name}
-                >
-                  <svg
-                    className="w-5 h-5"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    {getSocialIcon(link.icon)}
-                  </svg>
-                </a>
-              ))}
-            </div>
           </div>
 
           <div>
@@ -92,7 +74,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>partnership@medi7.io</li>
+              <li>info@medi7.io</li>
               <li>+82-2-1234-5678</li>
               <li>서울특별시 강남구 테헤란로 427</li>
               <li>위워크 타워</li>
@@ -102,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 Medi7. All rights reserved.
+            © 2025 Medi7. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-300 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors duration-200">

@@ -1,0 +1,129 @@
+{
+  "navigation": {
+    "home": "홈",
+    "features": "서비스",
+    "about": "소개",
+    "hospitals": "병원",
+    "contact": "문의"
+  },
+  "hero": {
+    "title": "Global Medical Tourism Platform Connecting Korea's Best Hospitals Worldwide",
+    "subtitle": "Medi7은 한국의 우수한 의료기관과 해외 환자를 연결하는 의료관광 플랫폼입니다. 병원, 해외 파트너사, 환자 모두에게 안전하고 투명한 의료관광 서비스를 제공합니다.",
+    "partnershipBtn": "파트너십 문의",
+    "platformBtn": "플랫폼 소개",
+    "stats": {
+      "hospitals": "파트너 병원",
+      "partners": "해외 파트너사",
+      "countries": "연결 국가"
+    },
+    "cards": {
+      "patientCare": {
+        "title": "환자 케어",
+        "description": "24/7 전문 의료진 상담"
+      },
+      "safety": {
+        "title": "안전보장",
+        "description": "JCI 인증 의료기관"
+      },
+      "globalNetwork": {
+        "title": "글로벌 연결",
+        "description": "15개국 파트너 네트워크"
+      },
+      "affordableCost": {
+        "title": "합리적 비용",
+        "description": "투명한 가격 책정"
+      }
+    },
+    "excellence": {
+      "title": "Korean Medical Excellence",
+      "subtitle": "세계가 인정하는 의료 기술력"
+    }
+  },
+  "features": {
+    "title": "글로벌 의료관광 플랫폼의 핵심 서비스",
+    "subtitle": "병원, 해외 파트너사, 환자를 연결하는 Medi7만의 차별화된 의료관광 솔루션을 경험해보세요.",
+    "cta": {
+      "title": "Medi7과 함께 글로벌 의료관광을 시작하세요",
+      "description": "병원 · 해외 파트너사 · 환자 모두가 만족하는 안전하고 투명한 의료관광 플랫폼입니다.",
+      "partnershipBtn": "파트너십 신청",
+      "brochureBtn": "플랫폼 소개서"
+    }
+  },
+  "about": {
+    "title": "Medi7: 글로벌 의료관광의 새로운 표준",
+    "description1": "Medi7은 한국의 우수한 의료진과 시설을 전 세계에 알리고, 해외 환자들에게는 안전하고 신뢰할 수 있는 의료서비스를 제공하는 글로벌 의료관광 플랫폼입니다.",
+    "description2": "의료관광 전문가와 IT 기술진이 협력하여 만든 통합 솔루션으로, 병원의 해외환자 유치부터 환자의 전체 여행 과정까지 원스톱으로 관리합니다. 모든 절차는 정부 규정을 준수하며 투명하게 운영됩니다.",
+    "features": {
+      "govPartnership": "정부 인가 해외환자유치업 파트너사 연계",
+      "hospitalNetwork": "100+ 국내 우수 의료기관 네트워크",
+      "globalPartners": "15개국 50+ 해외 파트너사 연계"
+    },
+    "buttons": {
+      "startPartnership": "파트너십 시작하기",
+      "viewServices": "서비스 상세보기"
+    },
+    "vision": {
+      "title": "Medi7의 비전",
+      "description": "한국의 우수한 의료 기술과 서비스를 전 세계에 알리고, 해외 환자들에게는 안전하고 신뢰할 수 있는 의료관광 경험을 제공합니다. 투명한 플랫폼 운영을 통해 의료관광 산업의 지속가능한 발전에 기여하며, 글로벌 의료관광의 허브로 자리매김하는 것이 저희의 목표입니다."
+    },
+    "stats": {
+      "hospitals": "병원 네트워크",
+      "countries": "글로벌 파트너",
+      "satisfaction": "환자 만족도",
+      "savings": "비용 절감",
+      "jci": "JCI 인증 병원"
+    }
+  },
+  "hospitals": {
+    "title": "대한민국 최고의 파트너 병원들",
+    "subtitle": "JCI 인증을 받은 세계적 수준의 의료기관들과 파트너십을 통해 최고 품질의 의료 서비스를 제공합니다.",
+    "cta": {
+      "recommendBtn": "병원 추천 받기",
+      "viewAllBtn": "전체 병원 보기"
+    },
+    "stats": {
+      "partners": "파트너 병원",
+      "jciRate": "JCI 인증률",
+      "specialties": "전문 진료과",
+      "emergency": "응급 의료"
+    }
+  },
+  "contact": {
+    "title": "Medi7 파트너십 문의",
+    "subtitle": "병원, 해외 파트너사, 의료관광 사업자 등 글로벌 의료관광 플랫폼에 참여하고 싶으시다면 지금 문의해주세요.",
+    "form": {
+      "title": "파트너십 문의하기",
+      "name": "담당자 성명",
+      "namePlaceholder": "담당자 성함을 입력해주세요",
+      "email": "이메일 주소",
+      "emailPlaceholder": "담당자 이메일을 입력해주세요",
+      "company": "기관/회사명",
+      "companyPlaceholder": "병원명 또는 회사명을 입력해주세요",
+      "message": "문의 내용",
+      "messagePlaceholder": "파트너십 관련 문의사항을 자세히 적어주세요",
+      "submit": "문의하기"
+    },
+    "info": {
+      "title": "연락처 정보",
+      "email": "이메일",
+      "phone": "전화번호",
+      "address": "주소"
+    },
+    "meeting": {
+      "title": "플랫폼 소개 미팅",
+      "description": "Medi7 의료관광 플랫폼에 대한 상세한 설명과 귀하의 사업에 맞는 맞춤형 솔루션을 제안해드립니다.",
+      "bookBtn": "미팅 예약하기"
+    }
+  },
+  "footer": {
+    "description": "한국의 우수한 의료 기술과 해외 환자를 연결하는 글로벌 의료관광 플랫폼으로 안전하고 투명한 의료관광 서비스를 제공합니다.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "서울특별시 강남구 테헤란로 427",
+    "addressDetail": "위워크 타워",
+    "copyright": "© 2025 Medi7. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "hipaa": "HIPAA Compliance"
+  }
+}

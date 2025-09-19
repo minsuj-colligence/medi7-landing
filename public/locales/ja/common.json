@@ -1,0 +1,129 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "features": "サービス",
+    "about": "会社概要",
+    "hospitals": "病院",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "韓国最高の病院を世界とつなぐグローバル医療ツーリズムプラットフォーム",
+    "subtitle": "Medi7は韓国の優秀な医療機関と海外患者をつなぐ医療ツーリズムプラットフォームです。病院、海外パートナー、患者すべてに安全で透明な医療ツーリズムサービスを提供します。",
+    "partnershipBtn": "パートナーシップお問い合わせ",
+    "platformBtn": "プラットフォーム紹介",
+    "stats": {
+      "hospitals": "パートナー病院",
+      "partners": "海外パートナー",
+      "countries": "連携国"
+    },
+    "cards": {
+      "patientCare": {
+        "title": "患者ケア",
+        "description": "24/7専門医療相談"
+      },
+      "safety": {
+        "title": "安全保障",
+        "description": "JCI認定医療機関"
+      },
+      "globalNetwork": {
+        "title": "グローバル連携",
+        "description": "15カ国パートナーネットワーク"
+      },
+      "affordableCost": {
+        "title": "適正費用",
+        "description": "透明な価格設定"
+      }
+    },
+    "excellence": {
+      "title": "韓国医療の卓越性",
+      "subtitle": "世界が認める医療技術力"
+    }
+  },
+  "features": {
+    "title": "グローバル医療ツーリズムプラットフォームの核心サービス",
+    "subtitle": "病院、海外パートナー、患者をつなぐMedi7の差別化された医療ツーリズムソリューションをご体験ください。",
+    "cta": {
+      "title": "Medi7と共にグローバル医療ツーリズムを始めましょう",
+      "description": "病院・海外パートナー・患者すべてが満足する安全で透明な医療ツーリズムプラットフォームです。",
+      "partnershipBtn": "パートナーシップ申請",
+      "brochureBtn": "プラットフォーム資料"
+    }
+  },
+  "about": {
+    "title": "Medi7：グローバル医療ツーリズムの新しいスタンダード",
+    "description1": "Medi7は韓国の優秀な医療陣と施設を全世界に知らせ、海外患者には安全で信頼できる医療サービスを提供するグローバル医療ツーリズムプラットフォームです。",
+    "description2": "医療ツーリズム専門家とIT技術陣が協力して作った統合ソリューションで、病院の海外患者誘致から患者の全体旅行過程までワンストップで管理します。すべての手続きは政府規定を遵守し透明に運営されます。",
+    "features": {
+      "govPartnership": "政府認可海外患者誘致業パートナー連携",
+      "hospitalNetwork": "100+国内優秀医療機関ネットワーク",
+      "globalPartners": "15カ国50+海外パートナー連携"
+    },
+    "buttons": {
+      "startPartnership": "パートナーシップ開始",
+      "viewServices": "サービス詳細表示"
+    },
+    "vision": {
+      "title": "Medi7のビジョン",
+      "description": "韓国の優秀な医療技術とサービスを全世界に知らせ、海外患者には安全で信頼できる医療ツーリズム体験を提供します。透明なプラットフォーム運営を通じて医療ツーリズム産業の持続可能な発展に貢献し、グローバル医療ツーリズムのハブとして位置づけることが私たちの目標です。"
+    },
+    "stats": {
+      "hospitals": "病院ネットワーク",
+      "countries": "グローバルパートナー",
+      "satisfaction": "患者満足度",
+      "savings": "費用削減",
+      "jci": "JCI認定病院"
+    }
+  },
+  "hospitals": {
+    "title": "韓国最高のパートナー病院",
+    "subtitle": "JCI認定を受けた世界レベルの医療機関とのパートナーシップを通じて最高品質の医療サービスを提供します。",
+    "cta": {
+      "recommendBtn": "病院推薦を受ける",
+      "viewAllBtn": "全病院を見る"
+    },
+    "stats": {
+      "partners": "パートナー病院",
+      "jciRate": "JCI認定率",
+      "specialties": "専門診療科",
+      "emergency": "救急医療"
+    }
+  },
+  "contact": {
+    "title": "Medi7パートナーシップお問い合わせ",
+    "subtitle": "病院、海外パートナー、医療ツーリズム事業者など、グローバル医療ツーリズムプラットフォームに参加したい方は今すぐお問い合わせください。",
+    "form": {
+      "title": "パートナーシップお問い合わせ",
+      "name": "担当者氏名",
+      "namePlaceholder": "担当者のお名前を入力してください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "担当者のメールを入力してください",
+      "company": "機関/会社名",
+      "companyPlaceholder": "病院名または会社名を入力してください",
+      "message": "お問い合わせ内容",
+      "messagePlaceholder": "パートナーシップに関するお問い合わせ事項を詳しくお書きください",
+      "submit": "お問い合わせ"
+    },
+    "info": {
+      "title": "連絡先情報",
+      "email": "メール",
+      "phone": "電話番号",
+      "address": "住所"
+    },
+    "meeting": {
+      "title": "プラットフォーム紹介ミーティング",
+      "description": "Medi7医療ツーリズムプラットフォームの詳細説明とお客様の事業に合ったカスタマイズソリューションをご提案いたします。",
+      "bookBtn": "ミーティング予約"
+    }
+  },
+  "footer": {
+    "description": "韓国の優秀な医療技術と海外患者をつなぐグローバル医療ツーリズムプラットフォームで安全で透明な医療ツーリズムサービスを提供します。",
+    "quickLinks": "クイックリンク",
+    "contact": "お問い合わせ",
+    "address": "ソウル特別市江南区テヘラン路427",
+    "addressDetail": "WeWorkタワー",
+    "copyright": "© 2025 Medi7. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "hipaa": "HIPAAコンプライアンス"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "hospitals": "Hospitals",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Global Medical Tourism Platform Connecting Korea's Best Hospitals Worldwide",
+    "subtitle": "Medi7 is a global medical tourism platform connecting Korea's excellent medical institutions with international patients. We provide safe and transparent medical tourism services for hospitals, overseas partners, and patients.",
+    "partnershipBtn": "Partnership Inquiry",
+    "platformBtn": "Platform Overview",
+    "stats": {
+      "hospitals": "Partner Hospitals",
+      "partners": "Global Partners",
+      "countries": "Connected Countries"
+    },
+    "cards": {
+      "patientCare": {
+        "title": "Patient Care",
+        "description": "24/7 Professional Medical Consultation"
+      },
+      "safety": {
+        "title": "Safety Assurance",
+        "description": "JCI Accredited Medical Institutions"
+      },
+      "globalNetwork": {
+        "title": "Global Network",
+        "description": "15-Country Partner Network"
+      },
+      "affordableCost": {
+        "title": "Affordable Cost",
+        "description": "Transparent Pricing"
+      }
+    },
+    "excellence": {
+      "title": "Korean Medical Excellence",
+      "subtitle": "World-Renowned Medical Technology"
+    }
+  },
+  "features": {
+    "title": "Core Services of Global Medical Tourism Platform",
+    "subtitle": "Experience Medi7's differentiated medical tourism solutions that connect hospitals, overseas partners, and patients.",
+    "cta": {
+      "title": "Start Global Medical Tourism with Medi7",
+      "description": "A safe and transparent medical tourism platform that satisfies hospitals, overseas partners, and patients.",
+      "partnershipBtn": "Apply for Partnership",
+      "brochureBtn": "Platform Brochure"
+    }
+  },
+  "about": {
+    "title": "Medi7: The New Standard for Global Medical Tourism",
+    "description1": "Medi7 is a global medical tourism platform that promotes Korea's excellent medical professionals and facilities worldwide while providing safe and reliable medical services to international patients.",
+    "description2": "As an integrated solution created through collaboration between medical tourism experts and IT professionals, we provide one-stop management from hospital patient recruitment to the entire patient journey. All procedures comply with government regulations and operate transparently.",
+    "features": {
+      "govPartnership": "Government-approved overseas patient recruitment business partnerships",
+      "hospitalNetwork": "100+ domestic excellent medical institution network",
+      "globalPartners": "50+ overseas partners in 15 countries"
+    },
+    "buttons": {
+      "startPartnership": "Start Partnership",
+      "viewServices": "View Services Details"
+    },
+    "vision": {
+      "title": "Medi7's Vision",
+      "description": "We promote Korea's excellent medical technology and services worldwide and provide safe and reliable medical tourism experiences to international patients. Our goal is to contribute to the sustainable development of the medical tourism industry through transparent platform operation and establish ourselves as a global medical tourism hub."
+    },
+    "stats": {
+      "hospitals": "Hospital Network",
+      "countries": "Global Partners",
+      "satisfaction": "Patient Satisfaction",
+      "savings": "Cost Savings",
+      "jci": "JCI Certified Hospitals"
+    }
+  },
+  "hospitals": {
+    "title": "Korea's Premier Partner Hospitals",
+    "subtitle": "We provide the highest quality medical services through partnerships with world-class medical institutions that have received JCI accreditation.",
+    "cta": {
+      "recommendBtn": "Get Hospital Recommendations",
+      "viewAllBtn": "View All Hospitals"
+    },
+    "stats": {
+      "partners": "Partner Hospitals",
+      "jciRate": "JCI Accreditation Rate",
+      "specialties": "Medical Specialties",
+      "emergency": "Emergency Care"
+    }
+  },
+  "contact": {
+    "title": "Medi7 Partnership Inquiry",
+    "subtitle": "If you are a hospital, overseas partner, or medical tourism business operator who wants to participate in our global medical tourism platform, please contact us now.",
+    "form": {
+      "title": "Partnership Inquiry",
+      "name": "Contact Name",
+      "namePlaceholder": "Please enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Please enter your email",
+      "company": "Organization/Company",
+      "companyPlaceholder": "Please enter hospital or company name",
+      "message": "Inquiry Details",
+      "messagePlaceholder": "Please provide detailed information about your partnership inquiry",
+      "submit": "Submit Inquiry"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "meeting": {
+      "title": "Platform Introduction Meeting",
+      "description": "We provide detailed explanations about the Medi7 medical tourism platform and propose customized solutions for your business.",
+      "bookBtn": "Book a Meeting"
+    }
+  },
+  "footer": {
+    "description": "A global medical tourism platform connecting Korea's excellent medical technology with international patients, providing safe and transparent medical tourism services.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "427 Teheran-ro, Gangnam-gu, Seoul",
+    "addressDetail": "WeWork Tower",
+    "copyright": "© 2025 Medi7. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "hipaa": "HIPAA Compliance"
+  }
+}

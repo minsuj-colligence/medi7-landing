@@ -46,13 +46,13 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="lg:grid lg:grid-cols-2 lg:gap-16">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-end">
           <div className="mb-12 lg:mb-0">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 파트너십 문의하기
               </h3>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label
                     htmlFor="name"
@@ -67,7 +67,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
                     placeholder="담당자 성함을 입력해주세요"
                   />
                 </div>
@@ -85,7 +85,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
                     placeholder="담당자 이메일을 입력해주세요"
                   />
                 </div>
@@ -102,7 +102,7 @@ export default function Contact() {
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
                     placeholder="병원명 또는 회사명을 입력해주세요"
                   />
                 </div>
@@ -116,12 +116,12 @@ export default function Contact() {
                   <textarea
                     id="message"
                     name="message"
-                    rows={4}
+                    rows={3}
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
-                    placeholder="파트너십 관련 문의사항을 자세히 적어주세요 (사업 분야, 규모, 제공 가능한 서비스 등)"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical focus:border-transparent transition-colors duration-200"
+                    placeholder="파트너십 관련 문의사항을 자세히 적어주세요"
                   />
                 </div>
                 <button type="submit" className="btn-primary w-full">
@@ -132,7 +132,7 @@ export default function Contact() {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 h-fit">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
                 연락처 정보
               </h3>
