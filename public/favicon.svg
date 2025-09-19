@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#1e40af" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Medical cross -->
+  <rect x="13" y="8" width="6" height="16" rx="1" fill="white"/>
+  <rect x="8" y="13" width="16" height="6" rx="1" fill="white"/>
+
+  <!-- Number 7 -->
+  <path d="M20 22V12H24V10H18V22H20Z" fill="#1e40af"/>
+</svg>

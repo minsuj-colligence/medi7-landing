@@ -25,6 +25,10 @@ export default function Home() {
           content="의료관광, 메디컬투어, 의료관광플랫폼, 해외환자유치, 성형외과, 피부과, 재활의학과, 한국의료, Medi7, medical tourism"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <meta property="og:title" content="Medi7 - 글로벌 의료관광 플랫폼" />
         <meta
           property="og:description"
